@@ -6,8 +6,8 @@ This is a sample application in [Android/iOSクロス開発フレームワーク
 
 # images
 
-![sample1](images/1.PNG)
+<img src="hhttps://github.com/takami228/news_sample_app/blob/master/images/1.PNG" width="100">
 
-![sample2](images/2.PNG)
+<img src="hhttps://github.com/takami228/news_sample_app/blob/master/images/2.PNG" width="100">
 
-![sample3](images/3.PNG)
+<img src="hhttps://github.com/takami228/news_sample_app/blob/master/images/3.PNG" width="100">
