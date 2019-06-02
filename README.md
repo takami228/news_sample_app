@@ -4,3 +4,10 @@ This is a sample application in [Android/iOSクロス開発フレームワーク
 
 [feedparser](https://github.com/xqwzts/feedparser) has been no longer maintained so I use [webfeed](https://pub.dev/packages/webfeed) instead.
 
+# images
+
+![sample1](images/1.PNG)
+
+![sample2](images/2.PNG)
+
+![sample3](images/3.PNG)
