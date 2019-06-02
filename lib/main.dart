@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Generated App',
+      title: 'Yahoo! News Checker',
       theme: new ThemeData(
           primarySwatch: Colors.pink,
           primaryColor: const Color(0xFFe91e63),
@@ -43,7 +43,7 @@ class RssListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Yahoo! Checker'),
+        title: Text('Yahoo! News Checker'),
       ),
       body: Center(
         child: ListView(
@@ -171,7 +171,12 @@ class ItemDetailPage extends StatefulWidget {
 
 class _ItemDetails extends State<ItemDetailPage> {
   RssItem item;
-  Widget _widget = Text('wait...',);
+  Widget _widget = Center(
+      child: Text(
+          '読み込み中...',
+          style:TextStyle(fontSize: 30.0)
+      )
+  );
   _ItemDetails({
     @required this.item
   });
