@@ -11,3 +11,13 @@ This is a sample application in [Android/iOSクロス開発フレームワーク
 <img src="https://github.com/takami228/news_sample_app/blob/master/images/2.PNG" width="320">
 
 <img src="https://github.com/takami228/news_sample_app/blob/master/images/3.PNG" width="320">
+
+# Run Integration Test
+
+```
+# Oepn Simulator
+$ open -a Simulator
+
+# Run Integration Test
+$ flutter drive --target=test_driver/app.dart
+```

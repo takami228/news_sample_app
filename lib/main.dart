@@ -1,9 +1,8 @@
-import 'dart:async';
-import 'package:http/http.dart';
-import 'package:html/dom.dart' as dom;
 import 'package:flutter/material.dart';
-import 'package:webfeed/webfeed.dart';
+import 'package:html/dom.dart' as dom;
+import 'package:http/http.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:webfeed/webfeed.dart';
 
 void main() => runApp(MyApp());
 
